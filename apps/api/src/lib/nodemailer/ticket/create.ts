@@ -26,7 +26,7 @@ export async function sendTicketCreate(ticket: any) {
           from: email?.reply,
           to: ticket.email,
           subject: `Issue #${ticket.id} has just been created & logged`,
-          text: `Hello there, Issue #${ticket.id}, which you reported on ${ticket.createdAt}, has now been created and logged`,
+          text: `Hello there, Issue #${ticket.id}, which you reported on ${ticket.createdAt}, has now been created and logged, have a look in Peppermint`,
           html: htmlToSend,
         })
         .then((info: any) => {

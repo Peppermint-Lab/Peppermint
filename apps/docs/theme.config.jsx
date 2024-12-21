@@ -19,7 +19,7 @@ const config = {
     toggleButton: false,
   },
   chat: {
-    link: 'https://discord.gg/X9yFbcV2rF',
+    link: 'https://discord.gg/invite/cyj86Ncygn',
   },
   // i18n: [
   //   { locale: 'en', text: 'English' },

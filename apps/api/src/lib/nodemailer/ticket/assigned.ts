@@ -26,7 +26,7 @@ export async function sendAssignedEmail(email: any) {
           from: provider?.reply, 
           to: email, 
           subject: `A new ticket has been assigned to you`, 
-          text: `Hello there, a ticket has been assigned to you`, 
+          text: `Hello there, a ticket has been assigned to you, Check it out in Peppermint`, 
           html: htmlToSend,
         })
         .then((info: any) => {

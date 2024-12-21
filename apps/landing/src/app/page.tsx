@@ -346,9 +346,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-white mb-4 mx-auto max-w-xl ">
-        <div className="lg:max-w-lg">
-          <h2 className="text-lg font-semibold leading-7 ">
+       <div className="mt-4 flex flex-col ">
+              <div className="">
+                <p className="text-base text-gray-800">
             Deploy faster with one click
           </h2>
           <p className="mt-3 text-base">

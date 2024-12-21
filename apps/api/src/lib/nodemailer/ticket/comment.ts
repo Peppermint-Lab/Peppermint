@@ -32,7 +32,7 @@ export async function sendComment(
         from: provider?.reply,
         to: email,
         subject: `New comment on Issue #${title} ref: #${id}`,
-        text: `Hello there, Issue #${title}, has had an update with a comment of ${comment}`,
+        text: `Hello there, Issue #${title}, has had an update with a comment of ${comment}, Check it out in Peppermint`,
         html: htmlToSend,
       })
       .then((info: any) => {
