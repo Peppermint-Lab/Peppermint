@@ -49,7 +49,7 @@ export default function Tickets() {
           <div className="flex flex-col">
             <div className="py-2 px-6 flex flex-row items-center justify-between bg-gray-200 dark:bg-[#0A090C] border-b-[1px]">
               <span className="text-sm font-bold">
-                You have {data.tickets.length} closed ticket
+                You have {data.tickets.length} closed tickets.
                 {data.tickets.length > 1 ? "'s" : ""}
               </span>
             </div>
